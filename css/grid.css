@@ -13,3 +13,11 @@
 .grid-col-1of3 {
     flex: 1 1 33.33%;
 }
+
+.grid-col-1of5 {
+    flex: 1 1 20%;
+}
+
+.grid-col-3of5 {
+    flex: 1 1 60%;
+}
