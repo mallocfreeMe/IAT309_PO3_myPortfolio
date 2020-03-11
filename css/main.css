@@ -1,0 +1,153 @@
+/* remove the default styles */
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* styling main nav */
+
+.main-nav {
+    height: 100vh;
+    width: 0;
+    position: fixed;
+    background-color: black;
+    /* hide all the links */
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+.hide-menu-button {
+    float: right;
+    width: 2em;
+    height: 2em;
+    margin-top:1em;
+    margin-right: 1em;
+}
+
+.hide-menu-button:hover {
+    cursor: pointer;
+    content: url("../icon/close-hover.png");
+}
+
+.main-nav-links {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.main-nav-links a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.main-nav-links a:hover {
+    color: #f1f1f1;
+}
+
+/* styling intro section */
+
+.intro-section {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("../img/1.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.menu-button {
+    outline: none;
+    font-size: 1.5rem;
+    float: right;
+    text-decoration: none;
+    background-color: transparent;
+    border: none;
+    color: white;
+    margin-top: 1em;
+    margin-right: 1em;
+}
+
+.menu-button:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.intro-heading1 {
+    color: white;
+    padding-top: 50vh;
+    font-size: 3rem;
+    text-align: center;
+}
+
+/* end of styling intro section */
+
+/* styling about me section */
+
+.about-me-section {
+    width: 100vw;
+    height: 100vh;
+}
+
+.about-me-heading1 {
+    padding-top: 50vh;
+    font-size: 3rem;
+    text-align: center;
+}
+
+/* end of styling about me section */
+
+/* styling project section */
+
+.project-section {
+    width: 100vw;
+    height: 100vh;
+}
+
+.project-heading1 {
+    padding-top: 50vh;
+    font-size: 3rem;
+    text-align: center;
+}
+
+/* end of styling project section */
+
+/* styling footer */
+
+footer {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    background-color: lightblue;
+    font-size: 1.5rem;
+}
+
+footer ul {
+    text-align: center;
+    list-style: none;
+}
+
+footer ul li {
+    display: inline-block;
+}
+
+footer ul li img {
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    width: 1.5em;
+    height: 1.5em;
+}
+
+/* styling copyright text */
+
+.copyright {
+    padding-top: 1em;
+    font-size: 0.5em;
+    display: block;
+}
+
+/* end of styling footer */
