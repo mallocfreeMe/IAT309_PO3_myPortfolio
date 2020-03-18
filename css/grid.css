@@ -10,8 +10,16 @@
     justify-content: space-around;
 }
 
+.grid-col-1of2 {
+    flex: 1 1 50%;
+}
+
 .grid-col-1of3 {
     flex: 1 1 33.33%;
+}
+
+.grid-col-1of4 {
+    flex: 1 1 25%;
 }
 
 .grid-col-1of5 {

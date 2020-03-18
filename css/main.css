@@ -1,6 +1,15 @@
 /* remove the default styles */
 
+* {
+    box-sizing: border-box;
+}
+
+h1, h2, h3 {
+    font-family: 'Roboto', sans-serif;
+}
+
 body {
+    font-family: 'Roboto Slab', serif;
     margin: 0;
     padding: 0;
 }
@@ -15,13 +24,14 @@ body {
     /* hide all the links */
     overflow-x: hidden;
     transition: 0.5s;
+    z-index: 3;
 }
 
 .hide-menu-button {
     float: right;
     width: 2em;
     height: 2em;
-    margin-top:1em;
+    margin-top: 1em;
     margin-right: 1em;
 }
 
@@ -56,9 +66,6 @@ body {
 .intro-section {
     width: 100vw;
     height: 100vh;
-    background-image: url("../img/1.jpeg");
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 .menu-button {
@@ -71,6 +78,7 @@ body {
     color: white;
     margin-top: 1em;
     margin-right: 1em;
+    z-index: 2;
 }
 
 .menu-button:hover {
@@ -80,7 +88,7 @@ body {
 
 .intro-heading1 {
     color: white;
-    padding-top: 50vh;
+    padding-top: 45vh;
     font-size: 3rem;
     text-align: center;
 }
@@ -91,28 +99,123 @@ body {
 
 .about-me-section {
     width: 100vw;
-    height: 100vh;
+    height: 120vh;
+    padding-left: 25%;
+    padding-right: 25%;
+}
+
+.about-me-section button {
+    color: black;
 }
 
 .about-me-heading1 {
-    padding-top: 50vh;
+    text-decoration: underline;
+    padding-top: 10vh;
     font-size: 3rem;
     text-align: center;
 }
+
+.my-quality {
+    padding-top: 10vh;
+    text-align: center;
+}
+
+.my-quality img {
+    width: 6em;
+    height: 6em;
+}
+
+/* styling for bio */
+
+.my-bio-skills {
+    padding-top: 10vh;
+}
+
+.my-bio {
+    text-align: center;
+}
+
+.my-bio img {
+    padding-bottom: 2vh;
+    width: 40%;
+    height: auto;
+}
+
+.my-bio h2 {
+    padding-bottom: 2vh;
+}
+
+/* styling for skill */
+
+.container {
+    width: 100%;
+    /* Full width */
+    background-color: #ddd;
+    /* Grey background */
+}
+
+.skills {
+    margin: 1em;
+    text-align: right;
+    /* Right-align text */
+    padding-top: 10px;
+    /* Add top padding */
+    padding-bottom: 10px;
+    /* Add bottom padding */
+    color: white;
+    /* White text color */
+}
+
+.html {
+    width: 90%;
+    background-color: #4CAF50;
+}
+
+/* Green */
+
+.css {
+    width: 80%;
+    background-color: #2196F3;
+}
+
+/* Blue */
+
+.js {
+    width: 65%;
+    background-color: #f44336;
+}
+
+/* Red */
+
+.php {
+    width: 60%;
+    background-color: #808080;
+}
+
+/* Dark Grey */
 
 /* end of styling about me section */
 
 /* styling project section */
 
 .project-section {
+    padding-left: 25%;
+    padding-right: 25%;
     width: 100vw;
-    height: 100vh;
+    height: auto;
+    background-color: #D5D5D5;
 }
 
 .project-heading1 {
-    padding-top: 50vh;
+    text-decoration: underline;
+    padding-top: 10vh;
     font-size: 3rem;
     text-align: center;
+}
+
+.project-thumnail img {
+    width: 100%;
+    height: 100%;
 }
 
 /* end of styling project section */

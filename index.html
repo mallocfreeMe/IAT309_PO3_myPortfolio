@@ -8,7 +8,12 @@
     <link href="css/main.css" rel="stylesheet">
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Slab&display=swap" rel="stylesheet">
     <title>Portfolio</title>
+
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.0.0/lib/p5.js"></script>
+    <script src="vanta.trunk.min.js"></script>
 </head>
 
 <body>
@@ -19,11 +24,11 @@
             <img src="icon/close.png" alt="close button icon" onclick="hideMenu()" class="hide-menu-button">
 
             <div class="main-nav-links">
-                <a href="#home" onclick="hideMenu()">Home</a>
-                <a href="#about-me" onclick="hideMenu()">About Me</a>
-                <a href="#project" onclick="hideMenu()">Projects</a>
-                <a href="styleGuide.html" onclick="hideMenu()">Style Guide</a>
-                <a href="#contact" onclick="hideMenu()">Contact</a>
+                <a href="#home" onclick="hideMenu()" class="glitch">Home</a>
+                <a href="#about-me" onclick="hideMenu()" class="glitch">About Me</a>
+                <a href="#project" onclick="hideMenu()" class="glitch">Projects</a>
+                <a href="styleGuide.html" onclick="hideMenu()" class="glitch">Style Guide</a>
+                <a href="#contact" onclick="hideMenu()" class="glitch">Contact</a>
             </div>
         </nav>
     </header>
@@ -31,21 +36,93 @@
     <!-- home -->
     <section class="intro-section" id="home">
         <button class="menu-button" onclick="showMenu()">Menu</button>
-        <h1 class="intro-heading1">Hello, I'm David Dai.</h1>
-        <!-- <h1 class="intro-heading1">I'm a full stack web developer.</h1> -->
+        <h1 class="intro-heading1">Hello, I'm David Dai. <br> I am a UX designer.</h1>
     </section>
+
+    <!-- import library Vanta.js -->
+    <!-- based on https://www.vantajs.com/?effect=trunk#(backgroundAlpha:1,backgroundColor:7039851,chaos:1,color:9979487,minHeight:200,minWidth:200,mouseControls:!t,scale:1,scaleMobile:1,spacing:0,touchControls:!t)-->
+    <script>
+        VANTA.TRUNK({
+            el: "#home",
+            mouseControls: true,
+            touchControls: true,
+            minHeight: 200.00,
+            minWidth: 200.00,
+            scale: 1.00,
+            scaleMobile: 1.00
+        })
+    </script>
 
     <!-- About Me -->
     <section class="about-me-section" id="about-me">
-        <h2 class="about-me-heading1">About Me</h2>
+        <h2 class="about-me-heading1">About</h2>
+
+        <!-- quality -->
+        <div class="grid my-quality">
+            <div class="grid-col-1of4">
+                <img src="icon/pentagon.png">
+                <h3>Fast</h3>
+                Fast load times and lag free interaction, my highest priority.
+            </div>
+            <div class="grid-col-1of4">
+                <img src="icon/pentagon.png">
+                <h3>Responsive</h3>
+                My layouts will work on any device, big or small.
+            </div>
+            <div class="grid-col-1of4">
+                <img src="icon/pentagon.png">
+                <h3>Intuitive</h3>
+                Strong preference for easy to use, intuitive UX/UI.
+            </div>
+            <div class="grid-col-1of4">
+                <img src="icon/pentagon.png">
+                <h3>Dynamic</h3>
+                Websites don't have to be static, I love making pages come to life.
+            </div>
+        </div>
+
+        <div class="grid my-bio-skills">
+            <!-- bio -->
+            <div class="grid-col-1of2 my-bio">
+                <img src="icon/my-picture.png">
+                <h2>Who's this guy?</h2>
+                <p>David Dai is a 4th-year interactive design student at Simon Fraser University, where David processes
+                    creative design projects from start to finish, including graphic design and 3D modeling. David
+                    participated in various design projects which involved many different
+                    fields like data visualization, human-computer interaction, and digital games. Besides the design
+                    career, David enjoys programming and play video games. You can reach David at david@domian.com.
+                </p>
+            </div>
+
+            <!-- skills -->
+            <div class="grid-col-1of2 my-skills">
+                <div class="container">
+                    <div class="skills html">90%</div>
+                </div>
+
+                <div class="container">
+                    <div class="skills css">80%</div>
+                </div>
+
+                <div class="container">
+                    <div class="skills js">65%</div>
+                </div>
+
+                <div class="container">
+                    <div class="skills php">60%</div>
+                </div>
+            </div>
+        </div>
     </section>
 
     <!-- Projects -->
     <section class="project-section" id="project">
         <h2 class="project-heading1">Projects</h2>
-        <div style="text-align: center; padding-top: 1em;">
-            <a href="project1.html">Project 1</a>
-            <a href="#">Project 2</a>
+        <div class="grid">
+            <div class="grid-col-1of2 project-thumnail"><a href="project1.html"><img src="img/project1/1.png"
+                        alt="product 1 thumbnail"></a></div>
+            <div class="grid-col-1of2 project-thumnail"><a href="project2.html"><img src="img/project2/1.png"
+                        alt="product 2 thumbnail"></a></div>
         </div>
     </section>
 
