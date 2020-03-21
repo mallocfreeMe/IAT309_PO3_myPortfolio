@@ -1,11 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Style Guide</title>
+
+    <!-- import google font api -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto%7CRoboto+Slab&display=swap" rel="stylesheet">
+
+    <!-- import grid css file -->
+    <link href="css/grid.css" rel="stylesheet">
+
+    <!-- import main css file -->
+    <link href="css/main.css" rel="stylesheet">
+
+    <!-- import main css file -->
+    <link href="css/styleGuide.css" rel="stylesheet">
+
+    <!-- import p5.js -->
+    <script src="js/three.r95.min.js"></script>
+
+    <!-- import vanta.js -->
+    <script src="js/vanta.birds.min.js"></script>
+
+    <title>David Dai | Style Guide</title>
+
 </head>
+
 <body>
-    <h1>This is my style guide</h1>
+    <section id="top" style="width:100vw;height:40vh;">
+        <h1>This is my style guide</h1>
+    </section>
+
+    <script>
+        VANTA.BIRDS({
+            el: "#top",
+            mouseControls: true,
+            touchControls: true,
+            minHeight: 200.00,
+            minWidth: 200.00,
+            scale: 1.00,
+            scaleMobile: 1.00,
+            birdSize: 0.50,
+            speedLimit: 3.00,
+            separation: 18.00
+        })
+    </script>
+
+
+    <div class="grid">
+        <div class="grid-col-1of5"></div>
+
+        <div class="grid-col-3of5">
+
+            <!-- side nav -->
+            <section>
+                <h2>Brand Styleguide</h2>
+                <ul>
+                    <li>For Business</li>
+                    <li>For Strategic Partners and Resellers</li>
+                    <li>Additional Terms</li>
+                </ul>
+            </section>
+
+            <!-- style guide main content-->
+            <section>
+                <h1>For Businesses</h1>
+
+                <h2>Find Us On Yelp</h2>
+                <p>
+                    Use the “Find Us On Yelp” logo to let your customers know you’re listed on Yelp, that you take pride
+                    in your reputation, and that you focus on the consumer experience.<br>
+
+                    For example, use the “Find Us On Yelp” logo in places such as your marketing collateral, website,
+                    storefront window, or company car or truck.<br>
+
+                    Please don’t alter or distort the “Find Us On Yelp” logo except to change its sizing while
+                    preserving the original proportions.<br>
+
+                    To request a "Find Us On Yelp" sticker, complete this form.<br>
+                </p>
+            </section>
+        </div>
+
+        <div class="grid-col-1of5"></div>
+    </div>
 </body>
+
 </html>

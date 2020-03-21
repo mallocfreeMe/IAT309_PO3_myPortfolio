@@ -4,16 +4,26 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- import google font api -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto%7CRoboto+Slab&display=swap" rel="stylesheet">
+
+    <!-- import grid css file -->
     <link href="css/grid.css" rel="stylesheet">
+
+    <!-- import main css file -->
     <link href="css/main.css" rel="stylesheet">
 
+    <!-- import jquery library-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
-    <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Slab&display=swap" rel="stylesheet">
-    <title>Portfolio</title>
-
+    <!-- import p5.js -->
     <script src="https://cdn.jsdelivr.net/npm/p5@1.0.0/lib/p5.js"></script>
+    <!-- import vanta.js -->
     <script src="js/vanta.trunk.min.js"></script>
+
+    <title>David Dai | jianghuidai@outlook.com</title>
+
 </head>
 
 <body>
@@ -35,12 +45,12 @@
 
     <!-- home -->
     <section class="intro-section" id="home">
+        <!-- import library Vanta.js -->
+        <!-- based on https://www.vantajs.com/?effect=trunk#(backgroundAlpha:1,backgroundColor:7039851,chaos:1,color:9979487,minHeight:200,minWidth:200,mouseControls:!t,scale:1,scaleMobile:1,spacing:0,touchControls:!t)-->
         <button class="menu-button" onclick="showMenu()">Menu</button>
         <h1 class="intro-heading1">Hello, I'm David Dai. <br> I am a UX designer.</h1>
     </section>
 
-    <!-- import library Vanta.js -->
-    <!-- based on https://www.vantajs.com/?effect=trunk#(backgroundAlpha:1,backgroundColor:7039851,chaos:1,color:9979487,minHeight:200,minWidth:200,mouseControls:!t,scale:1,scaleMobile:1,spacing:0,touchControls:!t)-->
     <script>
         VANTA.TRUNK({
             el: "#home",
@@ -59,23 +69,27 @@
 
         <!-- quality -->
         <div class="grid my-quality">
+
             <div class="grid-col-1of4">
-                <img src="icon/pentagon.png">
+                <img src="icon/pentagon.png" alt="fast icon">
                 <h3>Fast</h3>
                 Fast load times and lag free interaction, my highest priority.
             </div>
+
             <div class="grid-col-1of4">
-                <img src="icon/pentagon.png">
+                <img src="icon/pentagon.png" alt="reponsivie icon">
                 <h3>Responsive</h3>
                 My layouts will work on any device, big or small.
             </div>
+
             <div class="grid-col-1of4">
-                <img src="icon/pentagon.png">
+                <img src="icon/pentagon.png" alt="intuitive icon">
                 <h3>Intuitive</h3>
                 Strong preference for easy to use, intuitive UX/UI.
             </div>
+            
             <div class="grid-col-1of4">
-                <img src="icon/pentagon.png">
+                <img src="icon/pentagon.png" alt="dynamic icon">
                 <h3>Dynamic</h3>
                 Websites don't have to be static, I love making pages come to life.
             </div>
@@ -84,7 +98,7 @@
         <div class="grid my-bio-skills">
             <!-- bio -->
             <div class="grid-col-1of2 my-bio">
-                <img src="icon/my-picture.png">
+                <img src="icon/my-picture.png" alt="David's Selfie">
                 <h2>Who's this guy?</h2>
                 <p>David Dai is a 4th-year interactive design student at Simon Fraser University, where David processes
                     creative design projects from start to finish, including graphic design and 3D modeling. David
