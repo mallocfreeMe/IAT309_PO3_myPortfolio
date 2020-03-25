@@ -1,0 +1,7 @@
+#top h1 {
+    text-align: center;
+    color: white;
+    padding-top: 15vh;
+    font-size: 3rem;
+    z-index: 3;
+}
