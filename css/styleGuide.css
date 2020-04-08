@@ -106,7 +106,7 @@
     text-decoration: none;
 }
 
-.side-nav ul li a:visited {
+.side-nav ul li a:visited, .side-nav ul li a:link {
     color: black;
 }
 
@@ -122,18 +122,122 @@
     padding-left: 2em;
 }
 
+.section-name {
+    padding-top: 1.5em;
+    padding-bottom: 0.5em;
+}
+
+/* styling for typo section */
+
+.typo-unit {
+    border-bottom: solid thin #E6E6E6;
+    padding: 1em;
+    padding-left: 0;
+}
+
+.typo-heading {
+    display: inline-block;
+}
+
+.typo-heading-size {
+    vertical-align: baseline;
+    float: right;
+    color: #999999;
+}
+
 .main-content h1 {
-    font-size:36px;
+    font-size: 36px;
+}
+
+#typo-heading-size1 {
+    font-size: 36px;
 }
 
 .main-content h2 {
-    font-size:27px;
+    font-size: 27px;
 }
+
+#typo-heading-size2 {
+    font-size: 27px;
+}
+
 
 .main-content h3 {
-    font-size:21px;
+    font-size: 21px;
 }
 
-.main-content h4 {
-    font-size:18px;
+#typo-heading-size3 {
+    font-size: 21px;
 }
+
+
+.main-content h4 {
+    font-size: 18px;
+}
+
+#typo-heading-size4 {
+    font-size: 18px;
+}
+
+
+/* styling for color section */
+
+.color-heading2 {
+    padding-bottom: 0.5em;
+    padding-top: 0.5em;
+}
+
+.color-box {
+}
+
+#color-box1 {
+    background: #BE446D;
+    padding-left: 40%;
+    padding-right: 40%;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    display: inline-block;
+    margin-right: 1em;
+}
+
+#color-box2 {
+    background: #5BBCC4;
+    padding-left: 40%;
+    padding-right: 40%;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    display: inline-block;
+    margin-right: 1em;
+}
+
+#color-box3 {
+    background: #1E242D;
+    padding-left: 40%;
+    padding-right: 40%;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    display: inline-block;
+    margin-right: 1em;
+}
+
+#color-box4 {
+    background: #999999;
+    padding-left: 40%;
+    padding-right: 40%;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    display: inline-block;
+    margin-right: 1em;
+}
+
+#color-box5 {
+    background: #cccccc;
+    padding-left: 40%;
+    padding-right: 40%;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    display: inline-block;
+    margin-right: 1em;
+}
+
+/* styling for layout section */
