@@ -1,7 +1,139 @@
-#top h1 {
-    text-align: center;
+/* main nav */
+
+.nav-section {
+    background-color: #1D242E;
     color: white;
-    padding-top: 15vh;
-    font-size: 3rem;
-    z-index: 3;
+    padding: 1.5em;
+}
+
+.nav-section img {
+    vertical-align: middle;
+    width: 2em;
+    height: 2em;
+    margin-left: 30%;
+    margin-right: 1em;
+    display: inline-block;
+}
+
+.nav-section h1 {
+    font-size: 1.2em;
+    vertical-align: middle;
+    display: inline-block;
+    padding-right: 10%;
+}
+
+.nav-section nav {
+    display: inline-block;
+}
+
+.nav-section li {
+    padding-right: 1em;
+    display: inline;
+}
+
+#active-link {
+    color: #CF366D;
+}
+
+.nav-section a {
+    vertical-align: middle;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-section a:visited {
+    color: white;
+}
+
+.nav-section a:hover {
+    color: #CF366D;
+}
+
+.nav-section a:active {
+    color: #CF366D;
+}
+
+/* head section */
+
+.head-section {
+    background-color: #262933;
+    color: white;
+    padding-top: 5em;
+    padding-bottom: 5em;
+}
+
+.head-section h1 {
+    text-align: center;
+    padding-bottom: 0.5em;
+}
+
+.head-section p {
+    text-align: center;
+    font-size: 1em;
+    line-height: 24px;
+}
+
+/* body part */
+
+.body {
+    padding-top: 1em;
+}
+
+.side-nav ul {
+    position: sticky;
+    top: 0;
+    list-style: none;
+}
+
+.side-nav ul li {
+    font-size: 1em;
+    padding-left: 1em;
+    padding-right: 2em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    border-bottom: solid thin #E6E6E6;
+    color: #333333
+}
+
+#side-nav-heading {
+    font-weight: bolder;
+    padding-left: 0em;
+    font-size: 1.2em;
+}
+
+.side-nav ul li a {
+    text-align: center;
+    text-decoration: none;
+}
+
+.side-nav ul li a:visited {
+    color: black;
+}
+
+.side-nav ul li:hover {
+    background-color: lightgray;
+}
+
+#side-nav-heading:hover {
+    background-color: transparent;
+}
+
+.main-content {
+    padding-left: 2em;
+}
+
+.main-content h1 {
+    font-size:36px;
+}
+
+.main-content h2 {
+    font-size:27px;
+}
+
+.main-content h3 {
+    font-size:21px;
+}
+
+.main-content h4 {
+    font-size:18px;
 }

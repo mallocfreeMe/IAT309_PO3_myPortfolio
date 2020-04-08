@@ -17,72 +17,98 @@
     <!-- import main css file -->
     <link href="css/styleGuide.css" rel="stylesheet">
 
-    <!-- import p5.js -->
-    <script src="js/three.r95.min.js"></script>
-
-    <!-- import vanta.js -->
-    <script src="js/vanta.clouds2.min.js"></script>
-
     <title>David Dai | Style Guide</title>
 
 </head>
 
 <body>
-
-    <section id="top" style="width:100vw;height:50vh;">
+    <header class="nav-section">
+        <a href="index.html"><img src="icon/logo.png" alt="my logo"></a>
         <h1>Styleguide</h1>
-    </section>
+        <nav>
+            <ul>
+                <li><a href="index.html#home">Home</a></li>
+                <li><a href="index.html#about-me">About Me</a></li>
+                <li><a href="index.html#project">Projects</a></li>
+                <li><a id="active-link" href="styleGuide.html">Style Guide</a></li>
+                <li><a href="citation.html">Citation Page</a></li>
+                <li><a href="index.html#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
-    <script>
-        VANTA.CLOUDS2({
-            el: "#top",
-            mouseControls: true,
-            touchControls: true,
-            minHeight: 200.00,
-            minWidth: 200.00,
-            scale: 1.00,
-            texturePath: "img/noise.png"
-        })
-    </script>
+    <div class="head-section">
+        <h1>My Styleguide</h1>
+        <p>The styleguide is a resource for designers, product managers, and developers, providing a common language
+            <br> around UI patterns. I use it to maintain modular front-end code and visual consistency across this
+            portfolio.</p>
+    </div>
 
-
-    <div class="grid">
+    <div class="grid body">
         <div class="grid-col-1of5"></div>
 
         <div class="grid-col-3of5">
 
-            <!-- side nav -->
-            <section>
-                <h2>Brand Styleguide</h2>
-                <ul>
-                    <li>For Business</li>
-                    <li>For Strategic Partners and Resellers</li>
-                    <li>Additional Terms</li>
-                </ul>
-            </section>
+            <div class="grid">
 
-            <!-- style guide main content-->
-            <section>
-                <h1>For Businesses</h1>
+                <div class="grid-col-1of5 side-nav">
+                    <ul>
+                        <li id="side-nav-heading">Patterns</li>
+                        <li><a href="#typo">Typography</a></li>
+                        <li><a href="#typo">Color</a></li>
+                        <li><a href="#typo">Layout</a></li>
+                        <li><a href="#typo">Links</a></li>
+                        <li><a href="#typo">Buttons</a></li>
+                        <li><a href="#typo">Navigation</a></li>
+                    </ul>
+                </div>
 
-                <h2>Find Us On Yelp</h2>
-                <p>
-                    Use the “Find Us On Yelp” logo to let your customers know you’re listed on Yelp, that you take pride
-                    in your reputation, and that you focus on the consumer experience.<br>
+                <div class="grid-col-4of5 main-content">
 
-                    For example, use the “Find Us On Yelp” logo in places such as your marketing collateral, website,
-                    storefront window, or company car or truck.<br>
+                    <section id="typo">
+                        <h1>Typography</h1>
 
-                    Please don’t alter or distort the “Find Us On Yelp” logo except to change its sizing while
-                    preserving the original proportions.<br>
+                        <h1>Header Level 1</h1>
+                        <h2>Header Level 2</h2>
+                        <h3>Header Level 3</h3>
+                        <h4>Header Level 4</h4>
+                    </section>
 
-                    To request a "Find Us On Yelp" sticker, complete this form.<br>
-                </p>
-            </section>
+                    <section>
+                        <h1>Color</h1>
+
+                        <h2>Primary colors</h2>
+                        <p></p>
+                        <p></p>
+                        <p></p>
+
+                        <h2>Backgrounds and borders</h2>
+                    </section>
+
+                    <section>
+                        <h1>Layout</h1>
+                    </section>
+
+                    <section>
+                        <h1>Links</h1>
+                    </section>
+
+                    <section>
+                        <h1>Buttons</h1>
+                    </section>
+
+                    <section>
+                        <h1>Navigation</h1>
+                    </section>
+                </div>
+
+            </div>
+
         </div>
 
         <div class="grid-col-1of5"></div>
     </div>
+
 </body>
 
 </html>

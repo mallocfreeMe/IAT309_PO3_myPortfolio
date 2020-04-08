@@ -38,6 +38,7 @@
                 <a href="#about-me" onclick="hideMenu()" class="glitch">About Me</a>
                 <a href="#project" onclick="hideMenu()" class="glitch">Projects</a>
                 <a href="styleGuide.html" onclick="hideMenu()" class="glitch">Style Guide</a>
+                <a href="citation.html" onclick="hideMenu()" class="glitch">Citation Page</a>
                 <a href="#contact" onclick="hideMenu()" class="glitch">Contact</a>
             </div>
         </nav>
@@ -48,7 +49,8 @@
         <!-- import library Vanta.js -->
         <!-- based on https://www.vantajs.com/?effect=trunk#(backgroundAlpha:1,backgroundColor:7039851,chaos:1,color:9979487,minHeight:200,minWidth:200,mouseControls:!t,scale:1,scaleMobile:1,spacing:0,touchControls:!t)-->
         <button class="menu-button" onclick="showMenu()">Menu</button>
-        <h1 class="intro-heading1">Hello, I'm David Dai. <br> I am a UX designer.</h1>
+        <h1 class="intro-heading1">Hello, I'm <span class="my-name">David Dai</span>. <br> I am a UX designer.</h1>
+        <a href="#about-me" class="next-button">View my work</a>
     </section>
 
     <script>
@@ -70,61 +72,33 @@
         <!-- quality -->
         <div class="grid my-quality">
 
-            <div class="grid-col-1of4">
-                <img src="icon/pentagon.png" alt="fast icon">
-                <h3>Fast</h3>
-                Fast load times and lag free interaction, my highest priority.
+            <div class="grid-col-1of3">
+                <img src="icon/1.png" alt="usable icon">
+                <h3>Usable</h3>
+                Interface is easy to use, intuitive UX/UI.<br> it's my highest priority.
             </div>
 
-            <div class="grid-col-1of4">
-                <img src="icon/pentagon.png" alt="reponsivie icon">
-                <h3>Responsive</h3>
-                My layouts will work on any device, big or small.
+            <div class="grid-col-1of3">
+                <img src="icon/2.png" alt="Accessible icon">
+                <h3>Accessible</h3>
+                Layout will work on any devices,<br> and content is accessible to people with disabilities.
             </div>
 
-            <div class="grid-col-1of4">
-                <img src="icon/pentagon.png" alt="intuitive icon">
-                <h3>Intuitive</h3>
-                Strong preference for easy to use, intuitive UX/UI.
-            </div>
-
-            <div class="grid-col-1of4">
-                <img src="icon/pentagon.png" alt="dynamic icon">
-                <h3>Dynamic</h3>
-                Websites don't have to be static, I love making pages come to life.
+            <div class="grid-col-1of3">
+                <img src="icon/3.png" alt="Desirable icon">
+                <h3>Desirable</h3>
+                Design elements like images, logos<br> can evoke emotion and appreciation.
             </div>
         </div>
 
         <div class="grid my-bio-skills">
             <!-- bio -->
             <div class="grid-col-1of2 my-bio">
-                <img src="icon/my-picture.png" alt="David's Selfie">
+                <img src="icon/me.png" alt="David's Selfie">
                 <h2>Who's this guy?</h2>
-                <p>David Dai is a 4th-year interactive design student at Simon Fraser University, where David processes
-                    creative design projects from start to finish, including graphic design and 3D modeling. David
-                    participated in various design projects which involved many different
-                    fields like data visualization, human-computer interaction, and digital games. Besides the design
-                    career, David enjoys programming and play video games. You can reach David at david@domian.com.
+                <p>I am a 4th-year UX design student at Simon Fraser University, Vancouver.<br> I'm passion about UI
+                    effects, animations and creating intuitive, dynamic user experiences.
                 </p>
-            </div>
-
-            <!-- skills -->
-            <div class="grid-col-1of2 my-skills">
-                <div class="container">
-                    <div class="skills html">90%</div>
-                </div>
-
-                <div class="container">
-                    <div class="skills css">80%</div>
-                </div>
-
-                <div class="container">
-                    <div class="skills js">65%</div>
-                </div>
-
-                <div class="container">
-                    <div class="skills php">60%</div>
-                </div>
             </div>
         </div>
     </section>
@@ -138,7 +112,7 @@
                 <div class="project-description">
                     <h2>Steps</h2>
                     <p>XML/Java/SQLite</p>
-                    <a href="project1.html">Learn More</a>
+                    <a class="project-link" href="project1.html">Learn More</a>
                 </div>
             </div>
             <div class="grid-col-1of2 project-thumnail" id="project2-box">
@@ -146,7 +120,7 @@
                 <div class="project-description">
                     <h2>Closet Buddy</h2>
                     <p>Adobe XD</p>
-                    <a href="project2.html">Learn More</a>
+                    <a class="project-link" href="project2.html">Learn More</a>
                 </div>
             </div>
         </div>
@@ -157,7 +131,7 @@
         <div class="grid-col-1of3"></div>
         <div class="grid-col-1of3">
             <ul>
-                <li><a href="#"><img src="icon/email.png" alt="email link"></a></li>
+                <li><a href="mailto:webmaster@example.com"><img src="icon/email.png" alt="email link"></a></li>
                 <li><a href="https://github.com/mallocfreeMe/IAT309_PO3_myPortfolio"><img src="icon/github.png"
                             alt="github repo link"></a></li>
                 <li><a href="#"><img src="icon/linkedin.png" alt="linkdin link"></a></li>

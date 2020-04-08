@@ -29,3 +29,7 @@
 .grid-col-3of5 {
     flex: 1 1 60%;
 }
+
+.grid-col-4of5 {
+    flex: 1 1 80%;
+}
