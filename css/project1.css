@@ -10,7 +10,7 @@ body {
     text-align: center;
     background-color: #1B1E23;
     color: white;
-    height: 90vh;
+    height: 95vh;
     padding-right: 10%;
     padding-left: 10%;
     padding-top: 20%;
@@ -28,7 +28,144 @@ body {
     font-size: 1.5em;
 }
 
+#intro-img {
+    background-color: black;
+}
+
+#intro-img img {
+    margin-top: 4em;
+    margin-bottom: 4em;
+    margin-left: 35%;
+    width: 28%;
+    height: auto;
+}
+
+#intro-content {
+    background-color: white;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    color: #262B32;
+}
+
+#intro-content .top {
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+#intro-content h2 {
+    font-size: 3em;
+    padding-bottom: 5%;
+}
+
+#intro-content p {
+    font-size: 1.5em;
+    line-height: 2em;
+    padding-bottom: 1em;
+}
+
+#intro-content #special-p {
+    padding-bottom: 4em;
+}
+
+#intro-content .bottom {
+    padding-left: 10%;
+    padding-right: 5%;
+}
+
+#intro-content img {
+    margin-right: 5%;
+    width: 28%;
+    height: auto;
+}
+
+#intro-content #special-img {
+    margin-right: 0%;
+}
+
+#intro-content .img-caption {
+    text-align: center;
+    color: #3E4652;
+    font-size: 1em;
+    padding-top: 1em;
+}
+
+#design-challenge {
+    padding-top: 10%;
+    padding-bottom: 10%;
+    padding-left: 20%;
+    padding-right: 20%;
+    background-color: #F5F6F7;
+    color: #262B32;
+}
+
+#design-challenge h2 {
+    font-size: 3em;
+    padding-bottom: 5%;
+}
+
+#design-challenge h3 {
+    font-size: 1.5em;
+    padding-bottom: 5%;
+}
+
+#design-challenge p {
+    font-size: 1.5em;
+    line-height: 2em;
+    padding-bottom: 1em;
+}
+
+#design-challenge ol {
+    padding-left: 1.5em;
+    padding-bottom: 5%;
+}
+
+#design-challenge ol li {
+    font-size: 1.5em;
+    line-height: 2em;
+}
+
+#role {
+    padding-top: 10%;
+    padding-bottom: 10%;
+    padding-left: 20%;
+    padding-right: 20%;
+    background-color: white;
+    color: #262B32;
+}
+
+#role h2 {
+    font-size: 3em;
+    padding-bottom: 5%;
+}
+
+#role p {
+    font-size: 1.5em;
+    line-height: 2em;
+    padding-bottom: 1em;
+}
+
+#wave1 {
+    padding-top: 10%;
+    padding-bottom: 10%;
+    background-color: #F5F6F7;
+    color: #262B32;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+#wave1 h2 {
+    font-size: 3em;
+    padding-bottom: 5%;
+}
+
+#wave1 p {
+    font-size: 1.5em;
+    line-height: 2em;
+    padding-bottom: 1em;
+}
+
 #wave1 img {
+    margin-top: 4em;
     width: 100%;
     height: auto;
 }
