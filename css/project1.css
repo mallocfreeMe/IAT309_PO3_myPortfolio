@@ -1,10 +1,61 @@
+/* remove the default styles */
+
+* {
+    box-sizing: border-box;
+}
+
+h1, h2, h3 {
+    font-family: 'Roboto', sans-serif;
+}
+
 body {
+    font-family: 'Roboto Slab', serif;
+    margin: 0;
+    padding: 0;
     background-color: #EAEDEF;
 }
 
-.menu-button {
+/* styling the main nav */
+
+.main-nav {
+    padding-top: 4em;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5em;
+    font-weight: 500;
+    line-height: 2em;
+}
+
+.main-nav img {
+    width: 3em;
+    height: 3em;
+}
+
+.main-nav a {
+    text-decoration: none;
+}
+
+.main-nav a:visited {
     color: black;
 }
+
+.main-nav a:hover {
+    color: #C8356A;
+    text-decoration: underline;
+}
+
+.main-nav a:active {
+    color: black;
+}
+
+/* styling the right column */
+
+.main-content {
+    padding-right: 5%;
+    padding-left: 5%;
+}
+
+/* styling the intro section */
 
 #intro {
     text-align: center;
@@ -27,6 +78,25 @@ body {
     line-height: 2em;
     font-size: 1.5em;
 }
+
+.final-link {
+    display: inline-block;
+    padding-top: 2em;
+}
+
+.final-link:visited {
+    color: #505A69;
+}
+
+.final-link:hover {
+    color: #C8356A;
+}
+
+.final-link:active {
+    color: #505A69;
+}
+
+/* styling intro img section */
 
 #intro-img {
     background-color: black;
@@ -89,6 +159,8 @@ body {
     padding-top: 1em;
 }
 
+/* styling design challenge section */
+
 #design-challenge {
     padding-top: 10%;
     padding-bottom: 10%;
@@ -124,6 +196,8 @@ body {
     line-height: 2em;
 }
 
+/* styling my role section */
+
 #role {
     padding-top: 10%;
     padding-bottom: 10%;
@@ -143,6 +217,8 @@ body {
     line-height: 2em;
     padding-bottom: 1em;
 }
+
+/* styling wave 1 section */
 
 #wave1 {
     padding-top: 10%;
@@ -164,8 +240,97 @@ body {
     padding-bottom: 1em;
 }
 
-#wave1 img {
-    margin-top: 4em;
+.case1, .case2 {
+    text-align: center;
+}
+
+.case1 img, .case2 img {
+    width: 40%;
+    height: auto;
+    height: auto;
+    margin-top: 2em;
+    margin-bottom: 4em;
+}
+
+.case1 p, .case2 p {
+    text-align: left;
+    color: #1B1E23;
+}
+
+.case1 a:visited, .case2 a:visited {
+    color: #1B1E23;
+}
+
+.case1 a:hover, .case2 a:hover {
+    color: #C8356A;
+}
+
+.case1 a:active, .case2 a:active {
+    color: #1B1E23;
+}
+
+.cog {
+    padding-top: 3em;
+}
+
+.cog img {
     width: 100%;
     height: auto;
+    padding-bottom: 4em;
+}
+
+/* styling wave 2 section */
+
+#wave2 {
+    color: #262B32;
+    background-color: white;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+.paper img, .digital img {
+    width: 100%;
+    height: auto;
+}
+
+.paper figcaption, .digital figcaption {
+    padding-top: 1em;
+    text-align: center;
+    color: #404651;
+}
+
+.paper figure, .digital figure {
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+/* styling reflection section */
+
+#reflection {
+    color: #262B32;
+    background-color: #F5F6F7;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+#wave2 h2, #reflection h2 {
+    font-size: 3em;
+    padding-bottom: 5%;
+}
+
+#wave2 p, #reflection p {
+    font-size: 1.5em;
+    line-height: 2em;
+    padding-bottom: 1em;
+}
+
+/* styling for small devices */
+@media(max-width: 40em) {
+    .grid-col-1of5 {
+        flex: 1 1 100%;
+    }
 }

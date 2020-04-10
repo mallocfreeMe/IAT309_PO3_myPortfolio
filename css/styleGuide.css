@@ -62,15 +62,21 @@
     padding-bottom: 5em;
 }
 
+.head-section img {
+    margin-left: 80%;
+    display: inline-block;
+    width: 10em;
+    height: 10em;
+}
+
 .head-section h1 {
-    text-align: center;
     padding-bottom: 0.5em;
 }
 
 .head-section p {
-    text-align: center;
     font-size: 1em;
-    line-height: 24px;
+    line-height: 1.5em;
+    width: 50%;
 }
 
 /* body part */
@@ -161,7 +167,6 @@
     font-size: 27px;
 }
 
-
 .main-content h3 {
     font-size: 21px;
 }
@@ -169,7 +174,6 @@
 #typo-heading-size3 {
     font-size: 21px;
 }
-
 
 .main-content h4 {
     font-size: 18px;
@@ -179,7 +183,6 @@
     font-size: 18px;
 }
 
-
 /* styling for color section */
 
 .color-heading2 {
@@ -187,8 +190,7 @@
     padding-top: 0.5em;
 }
 
-.color-box {
-}
+.color-box {}
 
 #color-box1 {
     background: #BE446D;

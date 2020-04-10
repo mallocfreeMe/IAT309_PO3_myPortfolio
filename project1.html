@@ -5,36 +5,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="css/grid.css" rel="stylesheet">
-    <link href="css/main.css" rel="stylesheet">
     <link href="css/project1.css" rel="stylesheet">
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <title>Project 1</title>
 </head>
 
 <body>
-    <header>
-        <!-- learn how to make full size nav from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_overlay  -->
-        <nav class="main-nav">
-            <img src="icon/close.png" alt="close button icon" onclick="hideMenu()" class="hide-menu-button">
-
-            <div class="main-nav-links">
-                <a href="index.html#home" onclick="hideMenu()">Home</a>
-                <a href="index.html#about-me" onclick="hideMenu()">About Me</a>
-                <a href="index.html#project" onclick="hideMenu()">Projects</a>
-                <a href="styleGuide.html" onclick="hideMenu()">Style Guide</a>
-                <a href="index.html#contact" onclick="hideMenu()">Contact</a>
-            </div>
-        </nav>
-
-        <button class="menu-button" onclick="showMenu()">Menu</button>
-    </header>
-
-    <!-- prototype -->
     <div class="grid">
-        <div class="grid-col-1of5"></div>
+        <div class="grid-col-1of5">
+            <header>
+                <nav class="main-nav">
+                    <ul>
+                        <li><a href="index.html#home"><img src="icon/logo.png" alt="my logo icon"></a></li>
+                        <li><a href="index.html#home">Home</a></li>
+                        <li><a href="index.html#about-me">About Me</a></li>
+                        <li><a href="index.html#project">Projects</a></li>
+                        <li><a href="styleGuide.html">StyleGuide</a></li>
+                        <li><a href="citation.html">Citation Page</a></li>
+                        <li><a href="index.html#contact">Contact</a></li>
+                    </ul>
+                </nav>
+            </header>
+        </div>
 
-        <div class="grid-col-3of5 main-content">
+        <div class="grid-col-4of5 main-content">
 
             <div class="project1-content">
                 <section id="intro">
@@ -43,6 +37,9 @@
                         into a digital service
                         that aids everyone who uses it so they can focus on the rest of life while keeping their fashion
                         fresh and updated.</p>
+
+                    <a class="final-link" href="https://xd.adobe.com/view/a3fb6657-885a-431c-5982-e4875e7a1f8d-d5ca/"
+                        target="_blank">Clik here to see ​final Prototype:</a>
                 </section>
 
                 <div id="intro-img">
@@ -127,26 +124,132 @@
                     <h2>Wave 1</h2>
                     <p>To begin the design process, we started by analyzing the problem space. Early on we began
                         analyzing other existing applications that offer similar services. Considering that we want to
-                        create a robust and intuitive user interface, we analyzed different the different UI’s and made
+                        create a robust and intuitive user interface, we analyzed the difference from different UI’s and
+                        made
                         observations about the user experience.</p>
 
-                    <img src="img/project1/paper/1.png" alt="whiteboard prototype 1">
+                    <div class="case1">
+                        <img src="img/project1/cases/1.png" alt="case 1 study image">
+                        <p>
+                            YourCloset (<a href="https://www.yourclosetapp.com/"
+                                target="_blank">https://www.yourclosetapp.com/</a>) is one
+                            of the simpler applications we’ve analyzed.
+                            The UI is plain and has a generic layout, so if the user has several apps on their phone
+                            they
+                            wouldn’t have any issues with this. Our main issue with YourCloset is how limited the users
+                            are
+                            when it comes to the onboarding process. Users can only input clothes into the app via the
+                            camera, which can be cumbersome for larger wardrobes. For that reason, we hope to include a
+                            variety of options so that users can decide to onboard items in whatever way they find
+                            easiest.
+                            Some might choose to use their camera in order to get the most accurate image of their item
+                            while others might choose to just search up the item as it appears in the online store.
+                        </p>
+                    </div>
+
+                    <div class="case2">
+                        <img src="img/project1/cases/2.png" alt="case 2 study image">
+                        <p>
+                            GetWardrobe (<a href="https://en.getwardrobe.com/"
+                                target="_blank">https://en.getwardrobe.com/</a>) is a visually better application. It
+                            does a
+                            lot of
+                            things better than most other applications we’ve reviewed, specifically the number of
+                            options
+                            users have when it comes to choosing and sorting through their wardrobe. In fact, it gives
+                            the
+                            users too many filters to apply to their wardrobe which ends up increasing the amount of
+                            mental
+                            effort that the user would have to exert. Our strategy is to create an informed UI that we
+                            help
+                            users navigate options easier. Overall, the main features we want to focus on are giving
+                            users
+                            multiple ways of cataloguing their wardrobe, a calendar feature that users can integrate
+                            into
+                            other calendars and a feature that provides recommendations based on weather, location, etc.
+                            Another design choice we’ve chosen is to make and visually build the app to be gender
+                            neutral as
+                            most of the apps we’ve seen are catered exclusively to women. We want to build a general
+                            lifestyle application.
+                        </p>
+                    </div>
+
+                    <div class="cog">
+                        <img src="img/project1/cases/3.jpg" alt="human brain image">
+                        <p>
+                            Furthermore, we must consider the limitations of human cognition. For example, we are only
+                            able
+                            to focus on a select amount of items at a time and attention can shift very quickly. For
+                            this
+                            reason, we must consider which information is the most important at any given stage. We will
+                            attempt to create a simple interface to avoid visual cluttering. Next, our whole system is
+                            based
+                            on offloading human memory. As we have learned, users can recognize much easier than they
+                            can
+                            recall. This is why we have moved the wardrobe to a virtual representation so that they do
+                            not
+                            have to recall their wardrobe when they are in a store. Since one of our problems is that we
+                            tend to forget certain items of clothing, the app will store and potentially offer all items
+                            in
+                            the hopes of avoiding lost clothing.
+                        </p>
+                    </div>
+
+                    <p>Finally, we began a user survey. This will be sent out with the goal of understanding how a user
+                        functions on a given day, how they feel about the current state of their wardrobe and what
+                        features they would consider to be necessary or not.</p>
+                </section>
+
+                <section id="wave2">
+                    <h2>Wave 2</h2>
+                    <p>For this iteration, we all began by making sure we all understood the app and its core
+                        functionality. Next, we were tasked with creating a paper prototype each. We felt that this
+                        would be a good way to flush out ideas, since we all might have a slightly different vision in
+                        our heads. Finally, we split up the digital prototype and the report. David
+                        analyzed everyone’s paper prototypes and combined them into an initial digital prototype.
+                        Rollin, Nikhil, Ruby and Sara began looking into methods we could use to prepare our digital
+                        prototype
+                        for user testing. After the first version of the digital prototype was created, we went through
+                        a group
+                        walkthrough and discussion to make sure that the user journey made sense. When we were all happy
+                        with it, David implemented the new ideas and Rollin and Sara worked on the
+                        report.
+                    </p>
+
+                    <div class="paper">
+                        <figure>
+                            <img src="img/project1/paper/1.png">
+                            <figcaption>Orginal Feature list</figcaption>
+                        </figure>
+
+                        <figure>
+                            <img src="img/project1/paper/2.png">
+                            <figcaption>Final Paper Prototype</figcaption>
+                        </figure>
+                    </div>
+
+                    <div class="digital">
+                        <figure>
+                            <img src="img/project1/digital//1.png">
+                            <figcaption>Overview of the Digital Prototype</figcaption>
+                        </figure>
+                    </div>
+                </section>
+
+                <section id="reflection">
+                    <h2>Reflection</h2>
+                    <p>As a team, we learned to start user testing earlier in the future. We may have made a lot of
+                        assumptions on
+                        features we felt were obvious or ones we felt were important. User testing showed us where we
+                        need to pay more attention, and where we need to pay less. During this stage we also learned
+                        that it is necessary to make some tough decisions, as with the number of items to display.
+                        However, in the end, it is our job to make these calls so that our users can have the best
+                        experience possible.</p>
                 </section>
             </div>
         </div>
-        <div class="grid-col-1of5"></div>
     </div>
 
-    <!-- script -->
-    <script>
-        function showMenu() {
-            $(".main-nav").css("width", "100%");
-        }
-
-        function hideMenu() {
-            $(".main-nav").css("width", "0%");
-        }
-    </script>
 </body>
 
 </html>
