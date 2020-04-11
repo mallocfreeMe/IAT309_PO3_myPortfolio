@@ -47,8 +47,8 @@ body {
     display: inline;
 }
 
-#active-link {
-    color: #CF366D;
+.active-link {
+    color: #CF366D!important;
 }
 
 .nav-section a {
@@ -384,7 +384,7 @@ h2 {
         display: block;
         line-height: 2em;
     }
-    #active-link {
+    .active-link {
         color: #CF366D;
     }
     .nav-section a {

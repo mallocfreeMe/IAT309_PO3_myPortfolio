@@ -1,0 +1,38 @@
+.citation-section h1 {
+    font-size: 2em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.citation-section ul {
+    padding-left: 1.5em;
+    line-height: 2em;
+}
+
+/* styling for small device */
+
+@media(max-width: 60em) {
+    .grid-col-1of3{
+        width: 100%;
+        flex: 1 1 100%;
+    }
+    .citation-section {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    .citation-section h1 {
+        font-size: 1.5em;
+        padding-top: 1em;
+        padding-bottom: 1em;
+    }
+    .citation-section ul {
+        padding-left: 1.5em;
+        line-height: 2em;
+    }
+
+    .citation-section ul li{
+        line-height: 1.5em;
+        font-size: 1em;
+        word-wrap:break-word;
+    }
+}
