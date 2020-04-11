@@ -189,13 +189,11 @@ body {
 
 #project1-box {
     padding-right: 2.5%;
+    position: relative;
 }
 
 #project2-box {
     padding-left: 2.5%;
-}
-
-.project-thumnail {
     position: relative;
 }
 
@@ -225,6 +223,7 @@ body {
 
 #project1-box .project-description a {
     text-decoration: none;
+    margin-left: 5%;
 }
 
 #project1-box .project-description p {
@@ -255,6 +254,7 @@ body {
 
 #project2-box .project-description a {
     text-decoration: none;
+    margin-left: 5%;
 }
 
 .project-thumnail:hover .project-description {
@@ -399,36 +399,42 @@ footer ul li img {
         width: 97%;
     }
     #project1-box .project-description {
-        top: 15%;
-        left: 25%;
+        top: 35%;
+        left: 30%;
     }
     #project1-box .project-description h2 {
         font-size: 1em;
+        display: none;
     }
     #project1-box .project-description p {
         font-size: 1em;
         padding-bottom: 1em;
+        display: none;
+    }
+    #project1-box .project-description a {
+        margin-left: 0%;
     }
     #project2-box .project-description {
-        top: 15%;
+        top: 35%;
         left: 30%;
     }
     #project2-box .project-description h2 {
         font-size: 1em;
+        display: none;
     }
     #project2-box .project-description p {
         font-size: 1em;
         padding-bottom: 1em;
+        font-size: 0.8em;
+        margin-left: 5%;
+        display: none;
+    }
+    #project2-box .project-description a {
+        margin-left: 0%;
     }
     .project-link {
-        padding: 0.2em;
-        font-size: 0.5em;
-    }
-    #project1-box .project-link {
-        margin-left: 4.5em;
-    }
-    #project2-box .project-link {
-        margin-left: 2.5em;
+        padding: 0.5em;
+        font-size: 1em;
     }
 }
 
