@@ -357,6 +357,7 @@ footer ul li img {
         flex: 1 1 100%;
     }
     .my-quality {
+        font-size: 0.8em;
         padding-top: 0;
     }
     .my-quality img {
@@ -367,10 +368,11 @@ footer ul li img {
         padding-bottom: 2em;
     }
     .my-bio-skills {
+        font-size: 0.8em;
         padding-top: 1em;
     }
     .my-bio img {
-        width:30%;
+        width: 30%;
     }
     /* project section */
     .project-heading1 {
@@ -423,10 +425,10 @@ footer ul li img {
         font-size: 0.5em;
     }
     #project1-box .project-link {
-        margin-left:4.5em;
+        margin-left: 4.5em;
     }
     #project2-box .project-link {
-        margin-left:2.5em;
+        margin-left: 2.5em;
     }
 }
 
