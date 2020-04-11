@@ -1,0 +1,562 @@
+/* remove the default styles */
+
+* {
+    box-sizing: border-box;
+}
+
+h1, h2, h3 {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    font-family: 'Roboto Slab', serif;
+    margin: 0;
+    padding: 0;
+    background-color: #EAEDEF;
+}
+
+/* styling the main nav */
+
+.main-nav {
+    padding-top: 4em;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5em;
+    font-weight: 500;
+    line-height: 2em;
+}
+
+.main-nav img {
+    width: 3em;
+    height: 3em;
+}
+
+.main-nav a {
+    text-decoration: none;
+}
+
+.main-nav a:visited {
+    color: black;
+}
+
+.main-nav a:hover {
+    color: #C8356A;
+    text-decoration: underline;
+}
+
+.main-nav a:active {
+    color: black;
+}
+
+/* styling the right column */
+
+.main-content {
+    padding-right: 5%;
+    padding-left: 5%;
+}
+
+/* styling the intro section */
+
+#intro {
+    text-align: center;
+    background-color: #1B1E23;
+    color: white;
+    height: 95vh;
+    padding-right: 10%;
+    padding-left: 10%;
+    padding-top: 20%;
+}
+
+#intro h2 {
+    font-size: 4em;
+    padding-bottom: 5%;
+}
+
+#intro p {
+    padding-right: 15%;
+    padding-left: 15%;
+    line-height: 2em;
+    font-size: 1.5em;
+}
+
+.final-link {
+    display: inline-block;
+    padding-top: 2em;
+}
+
+.final-link:visited {
+    color: #505A69;
+}
+
+.final-link:hover {
+    color: #C8356A;
+}
+
+.final-link:active {
+    color: #505A69;
+}
+
+/* styling intro img section */
+
+#intro-img {
+    background-color: black;
+}
+
+#intro-img img {
+    margin-top: 4em;
+    margin-bottom: 4em;
+    margin-left: 35%;
+    width: 28%;
+    height: auto;
+}
+
+/* styling intro content section */
+
+#intro-content {
+    background-color: white;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    color: #262B32;
+}
+
+#intro-content .top {
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+#intro-content h2 {
+    font-size: 3em;
+    padding-bottom: 5%;
+}
+
+#intro-content p {
+    font-size: 1.5em;
+    line-height: 2em;
+    padding-bottom: 1em;
+}
+
+/* styling design challenge section */
+
+#design-challenge {
+    padding-top: 10%;
+    padding-bottom: 10%;
+    padding-left: 20%;
+    padding-right: 20%;
+    background-color: #F5F6F7;
+    color: #262B32;
+}
+
+#design-challenge h2 {
+    font-size: 3em;
+    padding-bottom: 5%;
+}
+
+#design-challenge p {
+    font-size: 1.5em;
+    line-height: 2em;
+    padding-bottom: 1em;
+}
+
+.bottom img {
+    width: 30%;
+    height: auto;
+}
+
+.sign-img {
+    margin-left: 15%;
+}
+
+.register-img {
+    margin-left: 3%;
+}
+
+.bottom .img-caption {
+    text-align: center;
+    color: #3E4652;
+    font-size: 1em;
+    padding-top: 1em;
+}
+
+/* styling my role section */
+
+#role {
+    padding-top: 10%;
+    padding-bottom: 10%;
+    padding-left: 20%;
+    padding-right: 20%;
+    background-color: white;
+    color: #262B32;
+}
+
+#role h2 {
+    font-size: 3em;
+    padding-bottom: 5%;
+}
+
+#role img {
+    width: 100%;
+    height: auto;
+}
+
+#role p {
+    padding-top: 5%;
+    font-size: 1.5em;
+    line-height: 2em;
+    padding-bottom: 1em;
+}
+
+/* styling wave 1 section */
+
+#wave1 {
+    padding-top: 10%;
+    padding-bottom: 10%;
+    background-color: #F5F6F7;
+    color: #262B32;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+#wave1 h2 {
+    font-size: 3em;
+    padding-bottom: 5%;
+}
+
+#wave1 h3 {
+    font-size: 1.5em;
+    padding-bottom: 1em;
+}
+
+#wave1 p {
+    font-size: 1.5em;
+    line-height: 2em;
+    padding-bottom: 1em;
+}
+
+.paper {
+    text-align: center;
+}
+
+.paper img {
+    width: 40%;
+    height: auto;
+    margin-bottom: 2em;
+}
+
+/* styling wave 2 section */
+
+#wave2 {
+    color: #262B32;
+    background-color: white;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+#wave2 .top {
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+#wave2 h3 {
+    padding-bottom: 1em;
+    font-size: 1.5em;
+}
+
+#wave2 a {
+    color: #262B32;
+}
+
+#wave2 a:visited {
+    color: black;
+}
+
+#wave2 a:hover {
+    color: #C8356A;
+    text-decoration: underline;
+}
+
+#wave2 a:active {
+    color: black;
+}
+
+#wave2 .bottom {
+    padding-left: 15%;
+    padding-top: 2em;
+}
+
+#wave2 .bottom img {
+    margin-right: 1%;
+    width: 20%;
+    height: auto;
+}
+
+#special-img {
+    margin-left: 0;
+}
+
+.wave2-caption {
+    padding-left: 18%;
+    color: #3E4652;
+    font-size: 1em;
+    padding-top: 1em;
+}
+
+/* styling reflection section */
+
+#reflection {
+    color: #262B32;
+    background-color: #F5F6F7;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+#wave2 h2, #reflection h2 {
+    font-size: 3em;
+    padding-bottom: 5%;
+}
+
+#wave2 p, #reflection p {
+    font-size: 1.5em;
+    line-height: 2em;
+    padding-bottom: 1em;
+}
+
+/* styling for small devices */
+
+@media(max-width: 60em) {
+    .grid-col-1of5 {
+        flex: 1 1 100%;
+    }
+    .grid-col-4of5 {
+        flex: 1 1 100%;
+    }
+    /* styling the main nav */
+    .main-nav {
+        padding-top: 1em;
+        padding-bottom: 1em;
+    }
+    .main-nav img {
+        width: 2em;
+        height: 2em;
+    }
+    /* styling the right column */
+    .main-content {
+        padding-right: 0;
+        padding-left: 0;
+    }
+    /* styling the intro section */
+    #intro {
+        height: auto;
+        padding-right: 10%;
+        padding-left: 10%;
+        padding-top: 10%;
+        padding-bottom: 10%;
+    }
+    #intro h2 {
+        font-size: 2em;
+        padding-bottom: 5%;
+    }
+    #intro p {
+        padding-right: 5%;
+        padding-left: 5%;
+        line-height: 1.5em;
+        font-size: 1em;
+    }
+    .final-link {
+        display: inline-block;
+        padding-top: 1em;
+    }
+    .final-link:visited {
+        color: #505A69;
+    }
+    .final-link:hover {
+        color: #C8356A;
+    }
+    .final-link:active {
+        color: #505A69;
+    }
+    /* styling intro img section */
+    #intro-img {
+        background-color: black;
+    }
+    #intro-img img {
+        margin-top: 4em;
+        margin-bottom: 4em;
+        margin-left: 32%;
+        width: 40%;
+        height: auto;
+    }
+    /* styling intro content section */
+    #intro-content {
+        background-color: white;
+        padding-top: 10%;
+        padding-bottom: 10%;
+        color: #262B32;
+    }
+    #intro-content .top {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    #intro-content h2 {
+        font-size: 2em;
+        padding-bottom: 5%;
+    }
+    #intro-content p {
+        font-size: 1em;
+        line-height: 1.5em;
+        padding-bottom: 1em;
+    }
+    /* styling design challenge section */
+    #design-challenge {
+        padding-top: 10%;
+        padding-bottom: 10%;
+        padding-left: 10%;
+        padding-right: 10%;
+        background-color: #F5F6F7;
+        color: #262B32;
+    }
+    #design-challenge h2 {
+        font-size: 2em;
+        padding-bottom: 5%;
+    }
+    #design-challenge p {
+        font-size: 1em;
+        line-height: 1.5em;
+        padding-bottom: 1em;
+    }
+    .bottom img {
+        width: 40%;
+        height: auto;
+    }
+    .sign-img {
+        margin-left: 8%;
+    }
+    .register-img {
+        margin-left: 3%;
+    }
+    .bottom .img-caption {
+        text-align: center;
+        color: #3E4652;
+        font-size: 0.8em;
+        padding-top: 1em;
+    }
+    /* styling my role section */
+    #role {
+        padding-top: 10%;
+        padding-bottom: 10%;
+        padding-left: 10%;
+        padding-right: 10%;
+        background-color: white;
+        color: #262B32;
+    }
+    #role h2 {
+        font-size: 2em;
+        padding-bottom: 5%;
+    }
+    #role img {
+        width: 100%;
+        height: auto;
+    }
+    #role p {
+        padding-top: 5%;
+        font-size: 1em;
+        line-height: 1.5em;
+        padding-bottom: 1em;
+    }
+    /* styling wave 1 section */
+    #wave1 {
+        padding-top: 10%;
+        padding-bottom: 10%;
+        background-color: #F5F6F7;
+        color: #262B32;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    #wave1 h2 {
+        font-size: 2em;
+        padding-bottom: 5%;
+    }
+    #wave1 h3 {
+        font-size: 1.5em;
+        padding-bottom: 1em;
+    }
+    #wave1 p {
+        font-size: 1em;
+        line-height: 1.5em;
+        padding-bottom: 1em;
+    }
+    .paper {
+        text-align: center;
+    }
+    .paper img {
+        width: 70%;
+        height: auto;
+        margin-bottom: 2em;
+        margin-top: 1em;
+    }
+    /* styling wave 2 section */
+    #wave2 {
+        color: #262B32;
+        background-color: white;
+        padding-top: 10%;
+        padding-bottom: 10%;
+    }
+    #wave2 .top {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    #wave2 h3 {
+        padding-bottom: 1em;
+        font-size: 1.5em;
+    }
+    #wave2 a {
+        color: #262B32;
+    }
+    #wave2 a:visited {
+        color: black;
+    }
+    #wave2 a:hover {
+        color: #C8356A;
+        text-decoration: underline;
+    }
+    #wave2 a:active {
+        color: black;
+    }
+    #wave2 .bottom {
+        padding-left: 10%;
+        padding-top: 2em;
+    }
+    #wave2 .bottom img {
+        margin-right: 1%;
+        width: 20%;
+        height: auto;
+    }
+    #special-img {
+        margin-left: 0;
+    }
+    .wave2-caption {
+        padding-left: 5%;
+        color: #3E4652;
+        font-size: 0.8em;
+        padding-top: 1em;
+    }
+    /* styling reflection section */
+    #reflection {
+        color: #262B32;
+        background-color: #F5F6F7;
+        padding-left: 10%;
+        padding-right: 10%;
+        padding-top: 10%;
+        padding-bottom: 10%;
+    }
+    #wave2 h2, #reflection h2 {
+        font-size: 2em;
+        padding-bottom: 5%;
+    }
+    #wave2 p, #reflection p {
+        font-size: 1em;
+        line-height: 1.5em;
+        padding-bottom: 1em;
+    }
+}

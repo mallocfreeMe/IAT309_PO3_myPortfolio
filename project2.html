@@ -4,73 +4,205 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="css/grid.css" rel="stylesheet">
-    <link href="css/main.css" rel="stylesheet">
-    <link href="css/project1.css" rel="stylesheet">
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script language="javascript" type="text/javascript"
-        src="https://cdn.jsdelivr.net/npm/p5@1.0.0/lib/p5.min.js"></script>
+    <!-- import grid file -->
+    <link href="css/grid.css" rel="stylesheet">
+
+    <!-- import project2 file -->
+    <link href="css/project2.css" rel="stylesheet">
+
     <title>David Dai | Steps</title>
 </head>
 
 <body>
-    <header>
-        <!-- learn how to make full size nav from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_overlay  -->
-        <nav class="main-nav">
-            <img src="icon/close.png" alt="close button icon" onclick="hideMenu()" class="hide-menu-button">
-
-            <div class="main-nav-links">
-                <a href="index.html#home" onclick="hideMenu()">Home</a>
-                <a href="index.html#about-me" onclick="hideMenu()">About Me</a>
-                <a href="index.html#project" onclick="hideMenu()">Projects</a>
-                <a href="styleGuide.html" onclick="hideMenu()">Style Guide</a>
-                <a href="index.html#contact" onclick="hideMenu()">Contact</a>
-            </div>
-        </nav>
-
-        <button class="menu-button" onclick="showMenu()">Menu</button>
-    </header>
-
-    <!-- prototype -->
+    <!-- 1/5 and 4/5 layout -->
     <div class="grid">
-        <div class="grid-col-1of5"></div>
 
-        <div class="grid-col-3of5 main-content">
+        <!-- 1/5 -->
+        <div class="grid-col-1of5">
+            <header>
 
-            <div class="project1-content">
-                <section id="intro">
-                    <h2>Mangage Your Wardrobe</h2>
-                    <p>we seek to solve these
-                        problems by offloading the tasks of wardrobe management and selection into a digital service
-                        that aids everyone who uses it so they can focus on the rest of life while keeping their fashion
-                        fresh and updated.</p>
-                </section>
+                <!-- main nav -->
+                <nav class="main-nav">
+                    <ul>
+                        <li><a href="index.html#home"><img src="icon/logo.png" alt="my logo icon"></a></li>
+                        <li><a href="index.html#home">Home</a></li>
+                        <li><a href="index.html#about-me">About Me</a></li>
+                        <li><a href="index.html#project">Projects</a></li>
+                        <li><a href="styleGuide.html">StyleGuide</a></li>
+                        <li><a href="citation.html">Citation Page</a></li>
+                        <li><a href="index.html#contact">Contact</a></li>
+                    </ul>
+                </nav>
 
-                <section id="wave1">
-                    <img src="img/2.jpg" alt="test">
-                </section>
-
-                <section id="wave2">
-                </section>
-
-                <section id="wave3">
-                </section>
-            </div>
+            </header>
         </div>
-        <div class="grid-col-1of5"></div>
+
+        <!-- 4/5 -->
+        <div class="grid-col-4of5 main-content">
+
+            <!-- intro section -->
+            <section id="intro">
+                <h2>Track Your Steps</h2>
+                <p>Steps is a step tracker app which helps the user to track walking steps but also calories. Beyond its
+                    tracking functionalities, Steps can also navigate the user through its map feature.</p>
+
+                <a class="final-link" href="https://github.com/mallocfreeMe/IAT359_Steps" target="_blank">Clik here to
+                    see ​the Repo</a>
+            </section>
+
+            <div id="intro-img">
+                <img src="img/project2/1.png" alt="Steps loading screen">
+            </div>
+
+            <section id="intro-content">
+
+                <div class="top">
+                    <h2>Purpose of the Application</h2>
+                    <p> In this day and age, most of the people do not have enough exercises to stay healthy because of
+                        time
+                        limits, places limits and so on. There is a practical need for the application, the ‘Steps’
+                        provides
+                        a platform for these people to track walking steps, provides exercises feedbacks, and encourage
+                        them
+                        to walk more by competing with others.</p>
+                </div>
+
+            </section>
+
+            <section id="design-challenge">
+                <h2>Design Challenge</h2>
+                <p> When the user opens the application for the first time, it will ask the user a set of questions to
+                    collect
+                    personal data. Then the system will generate customized walking steps for the user to complete on a
+                    daily basis. The application has two main functionalities, one is tracking walking steps and another
+                    one is to track running steps. The walking step is tracked automatically, and the running steps need
+                    to be activated manually whenever the user presses the button. Additionally, it has a walking step
+                    ranking page for every registered user, and it is intended to use competitions to encourage the user
+                    to do more exercises.</p>
+
+                <div class="bottom">
+                    <img class="sign-img" src="img/project2/2.png" alt="landing screen">
+                    <img class="register-img" src="img/project2/3.png" alt="register screen">
+
+                    <p class="img-caption">Log in screen and register screen.</p>
+                </div>
+            </section>
+
+            <section id="role">
+                <h2>My role</h2>
+
+                <img src="img/project2/6.png" alt="codes image">
+                <p>Steps is an individual assignment I created and designed in Android development class. It was made
+                    in three
+                    interations, and in each iteration, I used XML to structure the layout and wrote Java codes to
+                    implemnet the functionalities.</p>
+            </section>
+
+            <section id="wave1">
+                <h2>Milestone 1</h2>
+
+                <h3>Overview of the project</h3>
+                <p>
+                    Steps will have a menu bar on the bottom of the application, and it has four buttons include
+                    ‘Today,’ ‘Run,’ ‘Rank,’ ‘Me.’ Whenever the user presses these buttons, they will bring the user to
+                    the corresponding page. The ‘Today’ page is for recording today’s walking steps and calculating
+                    other basic data like how many calories the user burned today. The ‘Run’ Page is designed to record
+                    the user’s running data include the duration, the distance and so on. The ‘Rank’ page is to display
+                    a ranking list for the user’s walking steps, and the list includes all the registered user. Finally,
+                    the ‘Me’ page is the place for the user to customize the settings for the application. Compare with
+                    other similar step tracker applications on the market, and it has extra features like track running
+                    steps which can avoid user to download another application to do the job whenever the user wants to
+                    running rather than walking. It comes with a customized walking plan for the user based on the
+                    personal information, it can help the user to lose weight more efficient compared with other similar
+                    applications, and that is why it is useful. It is also an interesting project because it has a
+                    ranking page for the registered user to compete with each other, the user will enjoy more the
+                    application if they compete with their friends, family members.
+                </p>
+
+                <div class="paper">
+                    <img src="img/project2/paper/1.png" alt="image of a sitemap">
+                </div>
+
+                <h3>Basic Functionality</h3>
+                <p>When the user logs in the application for the first time, it will ask the user to complete a set of
+                    questions to collect personal data in order to make a customized walking plan on a daily basis. The
+                    application has two activities at this stage which are todayActivity, runActivity. The todayActivity
+                    can do basic
+
+                    walking steps counting, calories calculation. The runActivity can be triggered whenever the user
+                    presses the button on the runActivity page. It can count the running duration, running distance, and
+                    it also can calculate calories.</p>
+
+                <h3>Standard Functionality</h3>
+                <p>It comes with two new activities which are rankActivity, meActivity. The rankActivity compare all the
+                    hard code users with the actual user in the rankActivity page, and the rank list should be refreshed
+                    every day. The meActivity is the place for user to change settings, profile. Moreover, the
+                    todayActivity will be implemented a new feature which is get weather information from other
+                    apps/websites. Lastly, the runActivity also will be implemented a new feature which navigates the
+                    user through google map while the user is running.</p>
+
+                <h3>Bonus Functionality</h3>
+                <p>At this stage, the meActivity will have a new feature which is showing multiple graphs based on the
+                    user’s progress and some hard code data. If I still have time, I will let the todayActivity send a
+                    notification to the user when it received weather warnings like “It is going to rain after 30
+                    minutes”.
+                </p>
+
+            </section>
+
+            <section id="wave2">
+                <div class="top">
+                    <h2>Milestone 2</h2>
+                    <h3>Progress Report</h3>
+                    <p>At this stage, the application can handle registration, collecting personal data and login
+                        service.
+                        Moreover, the application can track walking steps, calculate burned calories and see the ranking
+                        status. It can also add events to the calendar, take profile pictures and log out the account.
+                    </p>
+                    <h3>Challenge</h3>
+                    <p>In the rankActivity of the application, I decided to use DialogFragment to do insert, search and
+                        remove actions instead of just adding them below the RecyclerView as buttons. The challenge I
+                        faced
+                        was I cannot get the values of two editText in my customized alertDialogFragment layout from the
+                        DialogFragment class. After I spent 2 hours of searching in the Stack Overflow, I found the
+                        <a href="https://stackoverflow.com/questions/12799751/android-how-do-i-retrieve-edittext-gettext-in-custom-alertdialog" target="_blank">link</a>. One of the
+                        answers
+                        correctly solve my problem,
+                        I need to cast the DialogInterface object into Dialog object, then I can use the findViewById
+                        method
+                        to get two values.</p>
+                </div>
+
+                <div class="bottom">
+                    <img src="img/project2/digital/1.png" alt="todayActivity screen">
+                    <img src="img/project2/digital/2.png" alt="runActivity screen">
+                    <img src="img/project2/digital/3.png" alt="rankActivity screen">
+                    <img id="special-img" src="img/project2/digital/4.png" alt="meActivity">
+
+                    <p class="wave2-caption">TodayActivity, RunActivity, RankActivity, MeActivity</p>
+                </div>
+            </section>
+
+            <section id="reflection">
+                <h2>Relfection</h2>
+                <p>
+                    There are two functionalities of the app were not accomplished as I expected. In the MeActivity, I
+                    planned to implement TextWatcher to check all the user input while the user is typing. In this way,
+                    the user can change their personal information and daily goals without crashing the app. Because I
+                    spent too much time for MeActivity’s camera functionality and I end up with no time to implement
+                    this feature. So I decided to change all the editable text to TextView in the MeActivity, the
+                    MeActivity became not a very practical practice for the user in the end. Lastly, the RankActivity
+                    did not implement the Comparator interface to compare the fake user data. I feel the reason why I
+                    did not achieve this feature is that my initial design of this activity is not very practical, there
+                    is no real user use my app and it does not make sense to compare all the fake user data. I tried to
+                    come with an alternative design for this activity, but I ran out of time. On the other hand, it's
+                    actually very complicated to implement a sort method to the SQLite database and takes lots of time.
+                </p>
+            </section>
+        </div>
     </div>
 
-    <!-- script -->
-    <script>
-        function showMenu() {
-            $(".main-nav").css("width", "100%");
-        }
-
-        function hideMenu() {
-            $(".main-nav").css("width", "0%");
-        }
-    </script>
 </body>
 
 </html>
