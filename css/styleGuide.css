@@ -140,6 +140,8 @@ body {
     background-color: transparent;
 }
 
+/* styling for content layout */
+
 .main-content {
     padding-left: 2em;
 }
@@ -206,8 +208,6 @@ body {
     padding-top: 0.5em;
 }
 
-.color-box {}
-
 #color-box1 {
     background: #BE446D;
     padding-left: 40%;
@@ -258,4 +258,386 @@ body {
     margin-right: 1em;
 }
 
+/* styling for all the code section */
+
+code {
+    background-color: #cccccc;
+    font-size: 1.5em;
+    padding: 0.5em;
+    line-height: 2.5em;
+}
+
+h2 {
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
 /* styling for layout section */
+
+.layout1 {
+    margin-bottom: 2em;
+}
+
+.layout2 {
+    margin-bottom: 2em;
+}
+
+.one {
+    padding: 1em;
+    font-size: 1em;
+    text-align: center;
+    background-color: #BE446D;
+}
+
+.two {
+    padding: 1em;
+    font-size: 1em;
+    text-align: center;
+    background-color: #5BBCC4;
+}
+
+.three {
+    color: white;
+    padding: 1em;
+    font-size: 1em;
+    text-align: center;
+    background-color: #1E242D;
+}
+
+/* styling for link section */
+
+.link {
+    text-decoration: none;
+    color: #262933;
+    font-size: 1.5em;
+}
+
+.link:visited {
+    color: #262933;
+}
+
+.link:hover {
+    color: #BE446D;
+    text-decoration: underline;
+}
+
+.link:active {
+    color: #262933;
+}
+
+/* styling for button section */
+
+.btn {
+    font-size: 1em;
+    border: solid 0.1em white;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    background-color: #5BBCC4;
+    outline: none;
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+/* styling for nav section */
+
+#nav-section {
+    padding-bottom: 5em;
+}
+
+/* styling for small device */
+
+@media(max-width: 60em) {
+    /* main nav */
+    .nav-section {
+        background-color: #1D242E;
+        color: white;
+        padding: 1.5em;
+    }
+    .nav-section img {
+        vertical-align: middle;
+        width: 1.5em;
+        height: 1.5em;
+        margin-left: 30%;
+        margin-right: 0.5em;
+        display: inline-block;
+    }
+    .nav-section h1 {
+        font-size: 1em;
+        vertical-align: middle;
+        display: inline-block;
+        padding-right: 10%;
+    }
+    .nav-section nav {
+        padding-top: 1.5em;
+        text-align: center;
+        display: block;
+    }
+    .nav-section li {
+        padding-right: 1em;
+        display: block;
+        line-height: 2em;
+    }
+    #active-link {
+        color: #CF366D;
+    }
+    .nav-section a {
+        cursor: pointer;
+        vertical-align: middle;
+        text-decoration: none;
+        font-weight: bold;
+    }
+    .nav-section a:visited {
+        color: white;
+    }
+    .nav-section a:hover {
+        color: #CF366D;
+    }
+    .nav-section a:active {
+        color: #CF366D;
+    }
+    /* head section */
+    .head-section {
+        background-color: #262933;
+        color: white;
+        padding-top: 2em;
+        padding-bottom: 2em;
+        text-align: center;
+    }
+    .grid-col-1of2 {
+        flex: 1 1 100%;
+    }
+    .head-section img {
+        display: none;
+    }
+    .head-section h1 {
+        padding-bottom: 0.5em;
+        font-size: 1.5em;
+    }
+    .head-section p {
+        font-size: 0.8em;
+        line-height: 1.5em;
+        width: 100%;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    /* body part */
+    .body {
+        padding-top: 1em;
+    }
+    .grid-col-1of5 {
+        flex: 1 1 100%;
+    }
+    .side-nav ul {
+        position: static;
+        top: 0;
+        list-style: none;
+    }
+    .side-nav ul li {
+        font-size: 1em;
+        padding-left: 1em;
+        padding-right: 2em;
+        padding-top: 1em;
+        padding-bottom: 1em;
+        border-bottom: solid thin #E6E6E6;
+        color: #333333
+    }
+    #side-nav-heading {
+        font-weight: bolder;
+        padding-left: 0.8em;
+        font-size: 1.2em;
+    }
+    .side-nav ul li a {
+        padding-left: 1.5em;
+        text-align: center;
+        text-decoration: none;
+    }
+    .side-nav ul li a:visited, .side-nav ul li a:link {
+        color: black;
+    }
+    .side-nav ul li:hover {
+        background-color: lightgray;
+    }
+    #side-nav-heading:hover {
+        background-color: transparent;
+    }
+    .main-content {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    .section-name {
+        padding-top: 1em;
+        padding-bottom: 0.5em;
+    }
+    /* styling for typo section */
+    .typo-unit {
+        border-bottom: solid thin #E6E6E6;
+        padding: 1em;
+        padding-left: 0;
+    }
+    .typo-heading {
+        display: inline-block;
+    }
+    .typo-heading-size {
+        vertical-align: baseline;
+        float: right;
+        color: #999999;
+    }
+    .main-content h1 {
+        font-size: 25px;
+    }
+    #typo-heading-size1 {
+        display: none;
+    }
+    .main-content h2 {
+        font-size: 16px;
+    }
+    #typo-heading-size2 {
+        display: none;
+    }
+    .main-content h3 {
+        font-size: 10px;
+    }
+    #typo-heading-size3 {
+        display: none;
+    }
+    .main-content h4 {
+        font-size: 9px;
+    }
+    #typo-heading-size4 {
+        display: none;
+    }
+    /* styling for color section */
+    .color-heading2 {
+        padding-bottom: 0.5em;
+        padding-top: 0.5em;
+    }
+    .special-p {
+        font-size: 0.5em;
+    }
+    #color-box1 {
+        background: #BE446D;
+        padding-left: 40%;
+        padding-right: 40%;
+        padding-top: 1em;
+        padding-bottom: 1em;
+        display: inline-block;
+        margin-right: 1em;
+    }
+    #color-box2 {
+        background: #5BBCC4;
+        padding-left: 40%;
+        padding-right: 40%;
+        padding-top: 1em;
+        padding-bottom: 1em;
+        display: inline-block;
+        margin-right: 1em;
+    }
+    #color-box3 {
+        background: #1E242D;
+        padding-left: 40%;
+        padding-right: 40%;
+        padding-top: 1em;
+        padding-bottom: 1em;
+        display: inline-block;
+        margin-right: 1em;
+    }
+    #color-box4 {
+        background: #999999;
+        padding-left: 40%;
+        padding-right: 40%;
+        padding-top: 1em;
+        padding-bottom: 1em;
+        display: inline-block;
+        margin-right: 1em;
+    }
+    #color-box5 {
+        background: #cccccc;
+        padding-left: 40%;
+        padding-right: 40%;
+        padding-top: 1em;
+        padding-bottom: 1em;
+        display: inline-block;
+        margin-right: 1em;
+    }
+    /* styling for all the code section */
+    code {
+        background-color: #cccccc;
+        font-size: 0.5em;
+        padding: 0.5em;
+        line-height: 2em;
+    }
+    h2 {
+        padding-top: 1em;
+        padding-bottom: 1em;
+    }
+    /* styling for layout section */
+    .layout1 {
+        margin-bottom: 2em;
+    }
+    .layout2 {
+        margin-bottom: 2em;
+    }
+    .one {
+        padding: 1em;
+        font-size: 1em;
+        text-align: center;
+        background-color: #BE446D;
+    }
+    .two {
+        padding: 1em;
+        font-size: 1em;
+        text-align: center;
+        background-color: #5BBCC4;
+    }
+    .three {
+        color: white;
+        padding: 1em;
+        font-size: 1em;
+        text-align: center;
+        background-color: #1E242D;
+    }
+    /* styling for link section */
+    .link {
+        text-decoration: none;
+        color: #262933;
+        font-size: 0.5em;
+    }
+    .link:visited {
+        color: #262933;
+    }
+    .link:hover {
+        color: #BE446D;
+        text-decoration: underline;
+    }
+    .link:active {
+        color: #262933;
+    }
+    /* styling for button section */
+    .btn {
+        font-size: 0.5em;
+        border: solid 0.1em white;
+        padding-left: 2em;
+        padding-right: 2em;
+        padding-top: 1em;
+        padding-bottom: 1em;
+        color: white;
+        text-decoration: none;
+        text-align: center;
+        background-color: #5BBCC4;
+        outline: none;
+    }
+    .btn:hover {
+        cursor: pointer;
+    }
+    /* styling for nav section */
+    #nav-section {
+        padding-bottom: 2em;
+    }
+}

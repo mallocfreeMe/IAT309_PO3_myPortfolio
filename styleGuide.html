@@ -27,7 +27,7 @@
                 <li><a href="index.html#home">Home</a></li>
                 <li><a href="index.html#about-me">About Me</a></li>
                 <li><a href="index.html#project">Projects</a></li>
-                <li><a id="active-link" href="styleGuide.html">Style Guide</a></li>
+                <li><a class="active-link" href="styleGuide.html">Style Guide</a></li>
                 <li><a href="citation.html">Citation Page</a></li>
                 <li><a href="index.html#contact">Contact</a></li>
             </ul>
@@ -106,20 +106,20 @@
                         <div class="grid">
                             <div class="grid-col-1of3 color-box">
                                 <p id="color-box1"></p>
-                                <p>Blush</p>
-                                <p>#BE446D</p>
+                                <p class="special-p">Blush</p>
+                                <p class="special-p">#BE446D</p>
                             </div>
 
                             <div class="grid-col-1of3 color-box">
                                 <p id="color-box2"></p>
-                                <p>Fountain Blue</p>
-                                <p>#5BBCC4</p>
+                                <p class="special-p">Fountain Blue</p>
+                                <p class="special-p">#5BBCC4</p>
                             </div>
 
                             <div class="grid-col-1of3 color-box">
                                 <p id="color-box3"></p>
-                                <p>Black</p>
-                                <p>#1E242D</p>
+                                <p class="special-p">Black</p>
+                                <p class="special-p">#1E242D</p>
                             </div>
                         </div>
 
@@ -128,14 +128,14 @@
                         <div class="grid">
                             <div class="grid-col-1of3 color-box">
                                 <p id="color-box4"></p>
-                                <p>Grey</p>
-                                <p>#999999</p>
+                                <p class="special-p">Grey</p>
+                                <p class="special-p">#999999</p>
                             </div>
 
                             <div class="grid-col-1of3 color-box">
                                 <p id="color-box5"></p>
-                                <p>Lightgrey</p>
-                                <p>#cccccc</p>
+                                <p class="special-p">Lightgrey</p>
+                                <p class="special-p">#cccccc</p>
                             </div>
 
                             <div class="grid-col-1of3"></div>
@@ -145,18 +145,103 @@
                     <section id="layout-section">
                         <h1 class="section-name">Layout</h1>
 
+                        <h2>CSS Selector:</h2>
+                        <code>.grid-col-1of*</code>
+
+                        <h2>Sample Code:</h2>
+                        <code>
+                            &lt;div class="grid&gt;&lt;div&gt;class="grid-col-1ofx"&lt;/div&gt;&lt;/div&gt;
+                        </code>
+
+                        <h2>Rendered Element:</h2>
+
+                        <div class="grid layout1">
+                            <div class="grid-col-1of2 one">
+                                <p>.grid-col-1of2</p>
+                            </div>
+                            <div class="grid-col-1of2 two">
+                                <p>.grid-col-1of2</p>
+                            </div>
+                        </div>
+
+                        <div class="grid layout2">
+                            <div class="grid-col-1of3 one">
+                                <p>.grid-col-1of3</p>
+                            </div>
+                            <div class="grid-col-1of3 two">
+                                <p>.grid-col-1of3</p>
+                            </div>
+                            <div class="grid-col-1of3 three">
+                                <p>.grid-col-1of3</p>
+                            </div>
+                        </div>
+
+                        <div class="grid">
+                            <div class="grid-col-1of5 one">
+                                <p>.grid-col-1of5</p>
+                            </div>
+                            <div class="grid-col-4of5 two">
+                                <p>.grid-col-4of5</p>
+                            </div>
+                        </div>
                     </section>
 
                     <section id="links-section">
                         <h1 class="section-name">Links</h1>
+
+                        <h2>CSS Selector:</h2>
+                        <code>.link</code>
+
+                        <h2>Sample Code:</h2>
+                        <code>
+                            &lt;a class=".link" href="#"&gt;
+                            A Link
+                            &lt;/a&gt;
+                        </code>
+
+                        <h2>Rendered Element:</h2>
+                        <a class="link" href="#">A Link</a>
                     </section>
 
                     <section id="buttons-section">
                         <h1 class="section-name">Buttons</h1>
+
+                        <h2>CSS Selector:</h2>
+                        <code>.btn</code>
+
+                        <h2>Sample Code:</h2>
+                        <code>
+                            &lt;button class=".btn"&gt;
+                            Button
+                            &lt;/button&gt;
+                        </code>
+
+                        <h2>Rendered Element:</h2>
+                        <button class="btn">Button</button>
                     </section>
 
                     <section id="nav-section">
                         <h1 class="section-name">Navigation</h1>
+
+                        <h2>CSS Selector:</h2>
+                        <code>.nav</code>
+
+                        <h2>Sample Code:</h2>
+                        <code>
+                            &lt;nav class="nav-section"&gt;&lt;ul&gt;&lt;li&gt; &lt;a class=".link" href="#"&gt;A Link&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/nav&gt;
+                        </code>
+
+                        <h2>Rendered Element:</h2>
+                        <nav class="nav-section">
+                            <ul>
+                                <li><a href="#">Home</a></li>
+                                <li><a href="#">About Me</a></li>
+                                <li><a href="#">Projects</a></li>
+                                <li><a class="active-link" href="#">Style Guide</a></li>
+                                <li><a href="#">Citation Page</a></li>
+                                <li><a href="#">Contact</a></li>
+                            </ul>
+                        </nav>
                     </section>
                 </div>
 
