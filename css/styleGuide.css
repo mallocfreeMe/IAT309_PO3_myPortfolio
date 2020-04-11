@@ -1,3 +1,19 @@
+/* remove the default styles */
+
+* {
+    box-sizing: border-box;
+}
+
+h1, h2, h3 {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    font-family: 'Roboto Slab', serif;
+    margin: 0;
+    padding: 0;
+}
+
 /* main nav */
 
 .nav-section {

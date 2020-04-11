@@ -110,6 +110,8 @@ body {
     height: auto;
 }
 
+/* styling intro content section */
+
 #intro-content {
     background-color: white;
     padding-top: 10%;
@@ -329,8 +331,230 @@ body {
 }
 
 /* styling for small devices */
-@media(max-width: 40em) {
+
+@media(max-width: 60em) {
     .grid-col-1of5 {
         flex: 1 1 100%;
+    }
+    .grid-col-4of5 {
+        flex: 1 1 100%;
+    }
+    /* styling the main nav */
+    .main-nav {
+        padding-top: 1em;
+        padding-bottom: 1em;
+    }
+    .main-nav img {
+        width: 2em;
+        height: 2em;
+    }
+    /* styling the right column */
+    .main-content {
+        padding-right: 0;
+        padding-left: 0;
+    }
+    /* styling the intro section */
+    #intro {
+        height: auto;
+        padding-right: 10%;
+        padding-left: 10%;
+        padding-top: 10%;
+        padding-bottom: 10%;
+    }
+    #intro h2 {
+        font-size: 2em;
+        padding-bottom: 5%;
+    }
+    #intro p {
+        padding-right: 5%;
+        padding-left: 5%;
+        line-height: 1.5em;
+        font-size: 1em;
+    }
+    /* styling intro img section */
+    #intro-img img {
+        margin-top: 4em;
+        margin-bottom: 4em;
+        margin-left: 32%;
+        width: 40%;
+        height: auto;
+    }
+    /* styling intro content section */
+    #intro-content {
+        background-color: white;
+        padding-top: 10%;
+        padding-bottom: 10%;
+        color: #262B32;
+    }
+    #intro-content .top {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    #intro-content h2 {
+        font-size: 2em;
+        padding-bottom: 5%;
+    }
+    #intro-content p {
+        font-size: 1em;
+        line-height: 1.5em;
+    }
+    #intro-content #special-p {
+        padding-bottom: 2em;
+    }
+    #intro-content .bottom {
+        padding-left: 10%;
+        padding-right: 5%;
+    }
+    #intro-content img {
+        margin-right: 5%;
+        width: 28%;
+        height: auto;
+    }
+    #intro-content #special-img {
+        margin-right: 0%;
+    }
+    #intro-content .img-caption {
+        text-align: center;
+        color: #3E4652;
+        font-size: 0.8em;
+        padding-top: 1em;
+    }
+    /* styling design challenge section */
+    #design-challenge {
+        padding-top: 10%;
+        padding-bottom: 10%;
+        padding-left: 10%;
+        padding-right: 10%;
+        background-color: #F5F6F7;
+        color: #262B32;
+    }
+    #design-challenge h2 {
+        font-size: 2em;
+        padding-bottom: 5%;
+    }
+    #design-challenge h3 {
+        font-size: 1.5em;
+        padding-bottom: 5%;
+    }
+    #design-challenge p {
+        font-size: 1em;
+        line-height: 1.5em;
+        padding-bottom: 1em;
+    }
+    #design-challenge ol {
+        padding-left: 1em;
+        padding-bottom: 5%;
+    }
+    #design-challenge ol li {
+        font-size: 1em;
+        line-height: 1.5em;
+    }
+    /* styling my role section */
+    #role {
+        padding-top: 10%;
+        padding-bottom: 10%;
+        padding-left: 10%;
+        padding-right: 10%;
+        background-color: white;
+        color: #262B32;
+    }
+    #role h2 {
+        font-size: 2em;
+        padding-bottom: 5%;
+    }
+    #role p {
+        font-size: 1em;
+        line-height: 1.5em;
+        padding-bottom: 1em;
+    }
+    /* styling wave 1 section */
+    #wave1 {
+        padding-top: 10%;
+        padding-bottom: 10%;
+        background-color: #F5F6F7;
+        color: #262B32;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    #wave1 h2 {
+        font-size: 2em;
+        padding-bottom: 5%;
+    }
+    #wave1 p {
+        font-size: 1em;
+        line-height: 1.5em;
+        padding-bottom: 1em;
+    }
+    .case1, .case2 {
+        text-align: center;
+    }
+    .case1 img, .case2 img {
+        width: 60%;
+        height: auto;
+        height: auto;
+        margin-top: 1em;
+        margin-bottom: 2em;
+    }
+    .case1 p, .case2 p {
+        text-align: left;
+        color: #1B1E23;
+    }
+    .case1 a:visited, .case2 a:visited {
+        color: #1B1E23;
+    }
+    .case1 a:hover, .case2 a:hover {
+        color: #C8356A;
+    }
+    .case1 a:active, .case2 a:active {
+        color: #1B1E23;
+    }
+    .cog {
+        padding-top: 2em;
+    }
+    .cog img {
+        width: 100%;
+        height: auto;
+        padding-bottom: 2em;
+    }
+    /* styling wave 2 section */
+    #wave2 {
+        color: #262B32;
+        background-color: white;
+        padding-left: 10%;
+        padding-right: 10%;
+        padding-top: 10%;
+        padding-bottom: 10%;
+    }
+    .paper img, .digital img {
+        width: 100%;
+        height: auto;
+    }
+    .paper figcaption, .digital figcaption {
+        padding-top: 1em;
+        text-align: center;
+        color: #404651;
+        font-size:0.8em;
+    }
+    .paper figure, .digital figure {
+        padding-top: 1em;
+        padding-bottom: 1em;
+    }
+    /* styling reflection section */
+    #reflection {
+        color: #262B32;
+        background-color: #F5F6F7;
+        padding-left: 10%;
+        padding-right: 10%;
+        padding-top: 10%;
+        padding-bottom: 10%;
+    }
+    #wave2 h2, #reflection h2 {
+        font-size: 2em;
+        padding-bottom: 5%;
+    }
+    #wave2 p, #reflection p {
+        font-size: 1em;
+        line-height: 1.5em;
+        padding-bottom: 1em;
     }
 }
